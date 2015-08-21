@@ -3,6 +3,26 @@
 
 In the making of my app, I found some resources I’d like to mention / share with you!
 
+[1. Xcode](./Article#1-within-xcode)
+
+[2. Treehouse]
+
+[3. Cocoapods]
+
+[4. TestFlight]
+
+[5. Git]
+
+[6. StackOverFlow]
+
+[7. Swift Bootstrap]
+
+[8. Sketch]
+
+[9. Icons]
+
+[10. X in Y Minutes]
+
 ## 1. Within Xcode:
 
 ### Turn on line numbers:
