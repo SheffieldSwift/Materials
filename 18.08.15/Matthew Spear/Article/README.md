@@ -1,4 +1,4 @@
-# 10 Resources I found making my first app:
+# 10 Resources I found building my first app:
 #### Made as part of a talk for [Sheffield Swift](https://github.com/SheffieldSwift)
 
 In the making of my app, I found some resources I’d like to mention / share with you!
