@@ -1,6 +1,6 @@
 # Sheffield Swift Materials
 
-This repository will host any material] that was presented at Sheffield Swift.
+This repository will host any material that was presented at Sheffield Swift.
 
 ## Contents
 
