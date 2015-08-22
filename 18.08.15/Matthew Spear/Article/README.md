@@ -3,50 +3,67 @@
 
 In the making of my app, I found some resources I’d like to mention / share with you!
 
-[1. Xcode](./Article#1-within-xcode)
+[1. Xcode](#xcode)
 
-[2. Treehouse]
+[2. Treehouse](#treehouse)
 
-[3. Cocoapods]
+[3. Cocoapods](#cocoapods)
 
-[4. TestFlight]
+[4. TestFlight](#testflight)
 
-[5. Git]
+[5. Git](#git)
 
-[6. StackOverFlow]
+[6. StackOverFlow](#stackoverflow)
 
-[7. Swift Bootstrap]
+[7. Swift Bootstrap](#swiftbootstrap)
 
-[8. Sketch]
+[8. Sketch](#sketch)
 
-[9. Icons]
+[9. Icons](#icons)
 
-[10. X in Y Minutes]
+[10. X in Y Minutes](#xiny)
 
-## 1. Within Xcode:
+<a name="xcode"></a>
+## 1. Xcode
 
-### Turn on line numbers:
+Xcode is the main IDE for building iOS and Mac apps, here is a couple of tips and trick within Xcode:
 
-Easily know exactly where you are in your document and have a reference of where to put breakpoint / locating errors or bugs.
+### Turn on line numbers
 
+Line numbers allow you to easily know exactly where you are in your document and have a reference of where to put breakpoint / locating errors or bugs.
+
+Turn on in preferences:
+
+```
 Xcode > Preferences > Text Editing > Line numbers
+```
+[![Line Numbers](./Images/Line Numbers.png)
+](https://stackoverflow.com/questions/5901758/where-do-i-find-the-line-number-in-the-xcode-editor)
 
-### Indent your code
-Hitting *ctrl - I* on selected text will re-indent it allowing for clearer reading of code and the structures within it.
 
-### Jump to definition
+### Keep your code structured with re-indent
 
-Right clicking on variable, class or function will give the option to *Jump to Definition* 
+Hitting *Control* + *I* on selected text will re-indent the text allowing for clearer reading of code and the structures within it.
 
-*alt - click* is also a neat way of shows relevant information / documentation of an object.
+### Jump to definition shortcut
+
+Right clicking on variable, class or function will give the option to *Jump to Definition*, allowing you to hop around your code quickly:
+
+*Alt* + *Click* is also a neat way of shows relevant information / documentation of an object.
+
+### Open Quickly
+
+![Quickly](./Images/Quickly.png)
+
+*Command* + *Shift* + *O* - This shortcut opens a dialog (seen above) and allows the user to find files within current project or workspace.
 
 ### MVC folder system
 
-MVC stands for Model-View-Controller and it a design philosophy when building apps. Slight experiment with this project creating folders for each part of the acronym.
+MVC stands for Model-View-Controller and is a design philosophy when building apps. Slight experiment with my project creating folders for each part of the acronym and organising the relevant code into each folder.
 
 ### Comment your code
 
-Select text and use the command: *cmd + /*
+Select text and use the shortcut: *Command* + */*
 
 In Swift:
 
@@ -57,26 +74,14 @@ In Swift:
 can go here */
 ```
 
-If you don’t already comment your code:
+#### If you don’t already comment your code:
 
-Help yourself - Write down and label sections / ideas and what objects are doing within your code.
+Help yourself - Write down and label sections / ideas and what objects are doing within your code. Imagine looking back on your code in a years time. Without comments it makes it harder to understand and possibly unreadable. Having comments helps you to pick up where you left off and easily navigate your code.
 
-Imagine looking back on your code in a years time, without comments it’ll make it hard to read and possibly unreadable.
-
-Help other people who might look at your code or reference it in the future.
-
-### Sensible variable / function names
+Help others - If you are building a framework or asking for help, other people might look at your code or reference it, so it needs to be clear and legible.
 
 
-
-### Open Quickly
-
-![Quickly](./Images/Quickly.png)
-
-*cmd + shift + O*
-
-opens a dialog allowing the user to find files
-
+<a name="alcatraz"></a>
 ## Alcatraz
 
 ![Alcatraz](./Images/Alcatraz.png)
@@ -87,13 +92,11 @@ Alcatraz is a package manager for Xcode allowing you to quickly install plugins,
 
 #### XToDo
 
-Collects and lists marks - MARK, TODO, FIXME, ???, !!!
+Plugin that collects and lists marks - MARK, TODO, FIXME, ???, !!!
 
 ![XToDo](./Images/XToDo.png)
 
-these marks are similar to pragma marks in Obj-C
-
-Think easily accessible comment title (also easy to get to in the Xcode jump bar)
+Marks in Swift - think comment or section titles which are easy to get to from the Xcode jump bar or search.
 
 In Swift:
 
@@ -102,93 +105,124 @@ In Swift:
 // TODO:
 // FIXME: 
 ```
+These marks are similar to pragma marks found in Objective-C.
 
-[https://github.com/trawor/XToDo](https://github.com/trawor/XToDo) or via Alcatraz
+[https://github.com/trawor/XToDo](https://github.com/trawor/XToDo) or [via Alcatraz](#alcatraz)
 
 #### Backlight
-[https://github.com/limejelly/Backlight-for-XCode](https://github.com/limejelly/Backlight-for-XCode) or via Alcatraz
+
+![Backlight](./Images/Backlight.png)
+
+Plugin that highlights the line you have selected, never lose your cursor again!
+
+[https://github.com/limejelly/Backlight-for-XCode](https://github.com/limejelly/Backlight-for-XCode) or [via Alcatraz](#alcatraz)
 
 
-
+<a name="treehouse"></a>
 ## 2. Treehouse
 
 ![Treehouse](./Images/Treehouse.png)
 
 Subscription based tutorial site covering web design, front end development, mobile development etc
 
-Try the 14 day trial
-Self-paced courses
-Hidden student price
+I'd recommend trying the 14 day free trial, all the courses are self-paced courses and can be downloaded and there is an iPad app. 
 
+If you are a student, email the support area and ask for the student discount (it's super hidden) about a 1/3 of the standard price and they don't shout about it.
 
-Recommended courses:
-* Swift Track (group of courses)
-* Cocoapods setup guide
-* Swift Enums and Structs
-* Object-Orientated Swift (Structs and Classes)
-* iOS Submitting to the App Store
-* What’s New in Swift 2.0
+Recommended courses / videos:
+
+* [Swift Track (group of courses)](https://teamtreehouse.com/tracks/ios-development-with-swift)
+* [Cocoapods setup guide](http://teamtreehouse.com/library/ios-tools)
+* [Swift Enums and Structs](http://teamtreehouse.com/library/swift-enums-and-structs)
+* [Object-Orientated Swift (Structs and Classes)](http://teamtreehouse.com/library/objectoriented-swift)
+* [iOS Submitting to the App Store](http://teamtreehouse.com/library/ios-submitting-to-the-app-store)
+* [What’s New in Swift 2.0](http://teamtreehouse.com/library/whats-new-in-swift-20)
 
 
 [My Profile](https://teamtreehouse.com/matthewspear)
 
 [https://teamtreehouse.com/](https://teamtreehouse.com/home)
 
-[Referral Link](http://referrals.trhou.se/matthewspear)
+[My Referral Link](http://referrals.trhou.se/matthewspear)
 
 
-
+<a name="cocoapods"></a>
 ## 3. Cocoapods
 
 ![Cocoapods](./Images/Cocoapods.png)
 
-Dependancy manager
+Dependancy manager for Swift & Objective-C
 [https://cocoapods.org/](https://cocoapods.org/)
 
-Notable Pods from Project:
-* Fabric / Crashlytics
-* Parse
-* SVProgressHUD
-* VTAcknowledgementsViewController
+Notable Pods from my Project:
+
+* [Fabric / Crashlytics](https://cocoapods.org/pods/Crashlytics)
+* [Parse (PFPurchase is super useful)](https://cocoapods.org/pods/parse)
+* [SVProgressHUD](https://cocoapods.org/pods/SVProgressHUD)
+* [VTAcknowledgementsViewController](http://cocoapods.org/pods/VTAcknowledgementsViewController)
 
 ### Finding cool pods:
 
-[https://trendingcocoapods.github.io/](https://trendingcocoapods.github.io/)
-[http://www.whatthepod.com/](http://www.whatthepod.com/)
+I browse these two sites every now and again to keep an eye on what is possible with cocoapods.
 
+ [Trending Cocoapods](https://trendingcocoapods.github.io/)
+
+[What the Pod](http://www.whatthepod.com/)
+
+[@CocoaPodsFeed](https://twitter.com/cocoapodsfeed) on Twitter
+
+<a name="testflight"></a>
 ## 4. TestFlight
 
 ![TestFlight](./Images/TestFlight.png)
 
-Quickest way to test both internally / publicly.
-Requires a developer account (£79 per year)
+Easy access to beta testing features both internally and externally from within iTunes Connect.
 
+Testing the apps you build is super important and I caught a couple of bugs that I wouldn't have caught unless I'd put it on different devices and checked it.
+
+Requires the Apple developer account (£79 per year).
+
+<a name="git"></a>
 ## 5. Git
 
 ![Git](./Images/Git.png)
 
-Git is a version control system, not to be confused with GitHub (which uses git but aren’t the same thing)
+Git is a version control system, not to be confused with GitHub (which uses git, just remember they aren’t the same thing).
 
-Feature per branch, when finished merge to master
-easy to roll back code
-git diff
+I used a feature per branch, when finished a feature I would test it then merge back to master.
+
+Using git allowed me to easy to roll back code if I messed anything up and easily branch and try experimental ideas without endangering the project.
 
 super useful command:
 
 ``` bash
-git checkout -b
+git checkout -b <feature name here>
 ```
+The command creates and switches to a new feature branch instantly, instead of having to make the branch then switch to it.
+
+Another one:
+
+``` bash
+git diff <commit> <commit>
+```
+
+Allows you to compare two commits / branches and see the **diff**erences.
+
 [https://git-scm.com/](https://git-scm.com/)
 
+<a name="stackoverflow"></a>
 ## 6. StackOverFlow
 
-A site for posing any of your programming questions.
+A site for posing any of your programming questions, if you are struggling with a problem, someone has probably already answered it here.
 
 [https://stackoverflow.com/](https://stackoverflow.com/)
 
+<a name="swiftbootstrap"></a>
 ## 7. Swift Bootstrap
 
 ![Swift Bootstrap](./Images/Swift Bootstrap.png)
+
+Swift Bootstrap is a site with a couple of tools to speed up getting a app workings, I've listed the tools here:
 
 * Palette - Generate colour palettes for your iOS project in seconds.
 * Onboarding - Quickly create onboarding slides for your iOS project.
@@ -198,18 +232,25 @@ A site for posing any of your programming questions.
 
 [http://www.swiftbootstrap.com/](http://www.swiftbootstrap.com/)
 
-
+<a name="sketch"></a>
 ## 8. Sketch - Mock ups / UI Design
 
 ![Sketch](./Images/Sketch.png)
 
+An alternative to Photoshop with a strong focus on UI design, recently become very popular in the design community and is a fraction of the price of anything Adobe makes!
+
+Students - 50% discount under educational licence, well worth it.
+
 [http://bohemiancoding.com/sketch/](http://bohemiancoding.com/sketch/)
 
+<a name="icons"></a>
 ## 9. Icons
 
 ### NounProject
 
 ![NounProject](./Images/Noun Project.png)
+
+So many icons, with the option to download under the Creative Commons Licence (free with attribution) or otherwise royalty free the icons are ~£2 each. An option has been added to get unlimited downloads by subscription ~£7 a month. 
 
 [https://thenounproject.com/](https://thenounproject.com/)
 
@@ -217,10 +258,15 @@ A site for posing any of your programming questions.
 
 ![IconStore](./Images/Icon Store.png)
 
+Packs of Icons by "First-Class Designers" completely free, both personal and commercial use and no attribution required.
+
 [http://iconstore.co/](http://iconstore.co/)
 
+<a name="xiny"></a>
 ## 10. Learn X in Y Minutes - Swift
 
 ![IconStore](./Images/XinY.png)
+
+Examples of the functionality of the Swift language in a single document, this site offers other languages and gives you a jump start into any new language you want to learn!
 
 [http://learnxinyminutes.com/docs/swift/](http://learnxinyminutes.com/docs/swift/)
