@@ -12,4 +12,4 @@
 ### Matthew Spear
 
 * [Slides](./Matthew Spear/Building my first app - 18.08.15.pdf)
-* [10 Resources I found building my first app](./Matthew Spear/)
+* [10 Resources I found building my first app](./Matthew Spear/Article/README.md)
