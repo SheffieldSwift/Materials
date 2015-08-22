@@ -26,11 +26,11 @@ In the making of my app, I found some resources I’d like to mention / share wi
 <a name="xcode"></a>
 ## 1. Xcode
 
-Xcode is the main IDE for building iOS and Mac apps, here is a couple of tips and trick within Xcode:
+Xcode is the main IDE for building iOS and Mac apps, here is a couple of tips and tricks within Xcode:
 
 ### Turn on line numbers
 
-Line numbers allow you to easily know exactly where you are in your document and have a reference of where to put breakpoint / locating errors or bugs.
+Line numbers allow you to easily know exactly where you are in your document and have a reference of where to put breakpoint and locate errors or bugs.
 
 Turn on in preferences:
 
@@ -43,23 +43,23 @@ Xcode > Preferences > Text Editing > Line numbers
 
 ### Keep your code structured with re-indent
 
-Hitting *Control* + *I* on selected text will re-indent the text allowing for clearer reading of code and the structures within it.
+Hitting *Control* + *I* on selected text will re-indent, allowing for clearer reading of code and the structures within it.
 
 ### Jump to definition shortcut
 
-Right clicking on variable, class or function will give the option to *Jump to Definition*, allowing you to hop around your code quickly:
+Right clicking on a variable, class or function will give the option to *Jump to Definition*, allowing you to quickly see the definition in the code.
 
-*Alt* + *Click* is also a neat way of shows relevant information / documentation of an object.
+*Alt* + *Click* is also a neat way of showing relevant information of an object.
 
 ### Open Quickly
 
 ![Quickly](./Images/Quickly.png)
 
-*Command* + *Shift* + *O* - This shortcut opens a dialog (seen above) and allows the user to find files within current project or workspace.
+*Command* + *Shift* + *O* - This shortcut opens a dialog allowing the user to quickly find files within current project or workspace.
 
 ### MVC folder system
 
-MVC stands for Model-View-Controller and is a design philosophy when building apps. Slight experiment with my project creating folders for each part of the acronym and organising the relevant code into each folder.
+MVC stands for Model-View-Controller and is a design philosophy when building apps. I tried a slight experiment with my project creating folders for each part of the acronym and organising the relevant code into each folder, making it more managable in the sidebar.
 
 ### Comment your code
 
@@ -68,17 +68,22 @@ Select text and use the shortcut: *Command* + */*
 In Swift:
 
 ``` swift
-// single line comment goes here
+// single line comments look like this
 
-/* multi-line comment
-can go here */
+/* multi-line 
+comments can
+span multiple 
+lines */
 ```
 
 #### If you don’t already comment your code:
 
-Help yourself - Write down and label sections / ideas and what objects are doing within your code. Imagine looking back on your code in a years time. Without comments it makes it harder to understand and possibly unreadable. Having comments helps you to pick up where you left off and easily navigate your code.
+##### Help yourself 
+Commenting is as simple as write down and explaining what sections of your code are doing. Imagine looking back on your code in a years time. Without comments it will make it harder to understand and possibly unreadable. Having comments helps you to pick up where you left off and easily navigate your code.
 
-Help others - If you are building a framework or asking for help, other people might look at your code or reference it, so it needs to be clear and legible.
+
+##### Help others 
+If you are working on a group project, framework or asking for help, other people might look at your code or reference it, so it needs to be clear and legible.
 
 
 <a name="alcatraz"></a>
@@ -92,11 +97,11 @@ Alcatraz is a package manager for Xcode allowing you to quickly install plugins,
 
 #### XToDo
 
-Plugin that collects and lists marks - MARK, TODO, FIXME, ???, !!!
+XToDo is a plugin that collects and lists marks - MARK, TODO, FIXME, ???, !!!
 
 ![XToDo](./Images/XToDo.png)
 
-Marks in Swift - think comment or section titles which are easy to get to from the Xcode jump bar or search.
+Marks in Swift - think of marks as comment or section titles which are easy to get to from the Xcode jump bar or search.
 
 In Swift:
 
@@ -113,7 +118,7 @@ These marks are similar to pragma marks found in Objective-C.
 
 ![Backlight](./Images/Backlight.png)
 
-Plugin that highlights the line you have selected, never lose your cursor again!
+Plugin that highlights the line you are editing, never lose your cursor again!
 
 [https://github.com/limejelly/Backlight-for-XCode](https://github.com/limejelly/Backlight-for-XCode) or [via Alcatraz](#alcatraz)
 
@@ -125,9 +130,9 @@ Plugin that highlights the line you have selected, never lose your cursor again!
 
 Subscription based tutorial site covering web design, front end development, mobile development etc
 
-I'd recommend trying the 14 day free trial, all the courses are self-paced courses and can be downloaded and there is an iPad app. 
+I'd recommend trying the 14 day free trial, all the courses are self-paced and can be downloaded and there is an iPad app. 
 
-If you are a student, email the support area and ask for the student discount (it's super hidden) about a 1/3 of the standard price and they don't shout about it.
+If you are a student, email the support area and ask for the student discount (it's pretty hidden) about a 1/3 of the standard price and they don't shout about it.
 
 Recommended courses / videos:
 
@@ -152,12 +157,13 @@ Recommended courses / videos:
 ![Cocoapods](./Images/Cocoapods.png)
 
 Dependancy manager for Swift & Objective-C
+
 [https://cocoapods.org/](https://cocoapods.org/)
 
 Notable Pods from my Project:
 
 * [Fabric / Crashlytics](https://cocoapods.org/pods/Crashlytics)
-* [Parse (PFPurchase is super useful)](https://cocoapods.org/pods/parse)
+* [Parse (PFPurchase is useful for IAP)](https://cocoapods.org/pods/parse)
 * [SVProgressHUD](https://cocoapods.org/pods/SVProgressHUD)
 * [VTAcknowledgementsViewController](http://cocoapods.org/pods/VTAcknowledgementsViewController)
 
@@ -169,16 +175,16 @@ I browse these two sites every now and again to keep an eye on what is possible 
 
 [What the Pod](http://www.whatthepod.com/)
 
-[@CocoaPodsFeed](https://twitter.com/cocoapodsfeed) on Twitter
+Also the [@CocoaPodsFeed](https://twitter.com/cocoapodsfeed) account on Twitter posts recent / interesting pods.
 
 <a name="testflight"></a>
 ## 4. TestFlight
 
 ![TestFlight](./Images/TestFlight.png)
 
-Easy access to beta testing features both internally and externally from within iTunes Connect.
+Easy access to beta testing features for both internally and externally from within iTunes Connect.
 
-Testing the apps you build is super important and I caught a couple of bugs that I wouldn't have caught unless I'd put it on different devices and checked it.
+Testing the apps you build is important and I caught a couple of bugs that I would never have caught unless I'd put it on different devices and checked it.
 
 Requires the Apple developer account (£79 per year).
 
@@ -213,7 +219,7 @@ Allows you to compare two commits / branches and see the **diff**erences.
 <a name="stackoverflow"></a>
 ## 6. StackOverFlow
 
-A site for posing any of your programming questions, if you are struggling with a problem, someone has probably already answered it here.
+A site for posing any of your programming questions, if you are struggling with any Swift or Xcode problem, someone has probably already answered it here.
 
 [https://stackoverflow.com/](https://stackoverflow.com/)
 
@@ -222,7 +228,7 @@ A site for posing any of your programming questions, if you are struggling with 
 
 ![Swift Bootstrap](./Images/Swift Bootstrap.png)
 
-Swift Bootstrap is a site with a couple of tools to speed up getting a app workings, I've listed the tools here:
+Swift Bootstrap is a site with a couple of tools to speed up building an app, I've listed the tools here:
 
 * Palette - Generate colour palettes for your iOS project in seconds.
 * Onboarding - Quickly create onboarding slides for your iOS project.
@@ -237,7 +243,7 @@ Swift Bootstrap is a site with a couple of tools to speed up getting a app worki
 
 ![Sketch](./Images/Sketch.png)
 
-An alternative to Photoshop with a strong focus on UI design, recently become very popular in the design community and is a fraction of the price of anything Adobe makes!
+An alternative to Photoshop with a strong focus on UI design, it has become increasingly popular in the design community and is a fraction of the price of anything Adobe makes!
 
 Students - 50% discount under educational licence, well worth it.
 
@@ -250,7 +256,7 @@ Students - 50% discount under educational licence, well worth it.
 
 ![NounProject](./Images/Noun Project.png)
 
-So many icons, with the option to download under the Creative Commons Licence (free with attribution) or otherwise royalty free the icons are ~£2 each. An option has been added to get unlimited downloads by subscription ~£7 a month. 
+So many icons, with the option to download under the Creative Commons Licence (free with attribution) or otherwise royalty free the icons are ~£2 each. An option has been added to get unlimited downloads via subscription ~£7 a month. 
 
 [https://thenounproject.com/](https://thenounproject.com/)
 
@@ -267,6 +273,6 @@ Packs of Icons by "First-Class Designers" completely free, both personal and com
 
 ![IconStore](./Images/XinY.png)
 
-Examples of the functionality of the Swift language in a single document, this site offers other languages and gives you a jump start into any new language you want to learn!
+Examples of the functionality of the Swift language in a single document, this site offers other languages and gives you a jumpstart into any new language you want to learn!
 
 [http://learnxinyminutes.com/docs/swift/](http://learnxinyminutes.com/docs/swift/)
