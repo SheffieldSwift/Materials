@@ -16,4 +16,4 @@
 
 ### Dominic Wroblewski
 
-* [Slides](./Dominic Wroblewski/Hello Sunday Morning & Gravyard Dash.pdf)
+* [Slides](./Dominic Wroblewski/Hello Sunday Morning & Graveyard Dash.pdf)
