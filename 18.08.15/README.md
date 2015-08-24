@@ -6,10 +6,14 @@
 * [Dominic Wroblewski](https://twitter.com/Domness) - “Hello Sunday Morning" and "Graveyard Dash" apps built in Swift
 
 
-## Resources
+## Materials
 
 
 ### Matthew Spear
 
 * [Slides](./Matthew Spear/Building my first app - 18.08.15.pdf)
 * [10 Resources I found building my first app](./Matthew Spear/Article/README.md)
+
+### Dominic Wroblewski
+
+* [Slides](./Dominic Wroblewski/Hello Sunday Morning & Gravyard Dash.pdf)
