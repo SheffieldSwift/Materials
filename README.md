@@ -7,6 +7,7 @@ This repository will host any material that was presented at Sheffield Swift.
 * [19.05.15](19.05.15): Introduction To Swift Xcode Playground by [Kevin Meany](https://github.com/SheffieldKevin)
 * [21.07.15](21.07.15): Error Handling in Swift 2.0 by [Luke Stringer](https://twitter.com/lukestringer90)
 * [18.08.15](18.08.15): Show and Tell
+* [15.09.15](15.09.15): WWDC Takeaways by [Sam Meadley](https://twitter.com/sammeadley)
 
 ---
 
